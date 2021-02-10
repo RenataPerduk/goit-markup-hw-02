@@ -39,6 +39,7 @@ body {
     sans-serif;
 }
 
+
 .logo {
     font-family: "Raleway",
     sans-serif;
@@ -49,10 +50,21 @@ body {
     color: var(--title-text-color);
 }
 
+.logo:hover {
+    color: var(--title-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
 .logo-web {
     color: var(--accent-color);
 }
 
+
+.logo-web:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
 
 .header-list-link {
     font-weight: 500;
@@ -63,7 +75,9 @@ body {
 }
 
 .header-list-link:hover {
-    color: var(--accent-color);
+    color: var(--title-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .header-list-link:focus {
@@ -83,7 +97,9 @@ body {
 }
 
 .contacts-link:hover {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .contacts-link:focus {
@@ -155,6 +171,7 @@ body {
     color: var(--primary-text-color);
 }
 
+
 .footer-address-map {
     font-style: normal;
     font-weight: 400;
@@ -163,13 +180,34 @@ body {
     color: #ffffff;
 }
 
+.footer-address-map:hover {
+    color: #ffffff;
+    text-decoration-line: underline;
+    text-decoration-color: var(--accent-color);
+}
+
 .footer-email,
 .footer-tel {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--mailtel-logo-color);
 }
+
+.footer-email:hover {
+    color: var(--mailtel-logo-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
+
+.footer-tel:hover {
+    color: var(--mailtel-logo-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
 
 .footer-logo {
     font-family: "Raleway",
@@ -180,6 +218,15 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+
+.footer-logo:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
+
+
 
 .portfolio-button {
     font-family: inherit;
